@@ -8,7 +8,7 @@ from garagem.views import (AcessorioViewSet, CategoriaViewSet, CorViewSet,
 router = DefaultRouter()
 router.register(r"acessorios", AcessorioViewSet)
 router.register(r"categorias", CategoriaViewSet)
-router.register(r"cors", CorViewSet)
+router.register(r"cores", CorViewSet)
 router.register(r"marcas", MarcaViewSet)
 router.register(r"veiculos", VeiculoViewSet)
 
